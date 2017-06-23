@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'hzl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'I am hu lei, this is my first in the pod, if there is any shortage of place please point out, I will modify in time.'
 
 # This description is used to generate tags and improve search results.
