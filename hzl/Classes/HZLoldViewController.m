@@ -6,10 +6,9 @@
 //
 //
 
-#import "HZLNewViewController.h"
 #import "HZLoldViewController.h"
 
-@interface HZLNewViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface HZLoldViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -17,7 +16,7 @@
 
 @end
 
-@implementation HZLNewViewController
+@implementation HZLoldViewController
 
 #pragma mark - life cycle
 
@@ -36,7 +35,12 @@
     
     [self.view addSubview:self.tableView];
 }
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.title = [NSString stringWithFormat:@"数字 --- %@",self.titleString];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -61,15 +65,13 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellName];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"数字 --- %@",self.netArray[indexPath.row]];
+    cell.textLabel.text = [NSString stringWithFormat:@"字母 --- %@",self.netArray[indexPath.row]];
     
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
-    HZLoldViewController *vc = [[HZLoldViewController alloc]init];
-    vc.titleString = self.netArray[indexPath.row];
-    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 #pragma mark - custom delegate
@@ -102,7 +104,7 @@
 {
     if (!_netArray)
     {
-        _netArray = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",nil];
+        _netArray = [NSMutableArray arrayWithObjects:@"a",@"b",@"c",@"d",@"e",@"f",@"g",nil];
     }
     
     return _netArray;
