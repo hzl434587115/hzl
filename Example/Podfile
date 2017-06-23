@@ -1,0 +1,6 @@
+use_frameworks!
+target 'hzl_Tests' do
+  pod 'hzl', :path => '../'
+  
+  
+end
