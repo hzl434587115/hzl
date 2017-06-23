@@ -1,0 +1,6 @@
+framework module hzl {
+  umbrella header "hzl-umbrella.h"
+
+  export *
+  module * { export * }
+}
