@@ -7,6 +7,7 @@
 //
 
 #import "HZLoldViewController.h"
+#import "HZLEndViewController.h"
 
 @interface HZLoldViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -71,7 +72,8 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
-    
+    HZLEndViewController *vc = [[HZLEndViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - custom delegate

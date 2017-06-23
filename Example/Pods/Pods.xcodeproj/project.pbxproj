@@ -17,6 +17,8 @@
 		6299EEA41EFCE6F200806C1A /* HZLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299EEA21EFCE6F200806C1A /* HZLNewViewController.m */; };
 		6299EEA71EFCEF6400806C1A /* HZLoldViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6299EEA51EFCEF6400806C1A /* HZLoldViewController.h */; };
 		6299EEA81EFCEF6400806C1A /* HZLoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299EEA61EFCEF6400806C1A /* HZLoldViewController.m */; };
+		6299EEAB1EFCF40000806C1A /* HZLEndViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6299EEA91EFCF40000806C1A /* HZLEndViewController.h */; };
+		6299EEAC1EFCF40000806C1A /* HZLEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6299EEAA1EFCF40000806C1A /* HZLEndViewController.m */; };
 		F0800D7BEFA2208FEA50D9A2BA4552C8 /* hzl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4CF0894E5AF497422A2E08228F28B0 /* hzl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		6299EEA21EFCE6F200806C1A /* HZLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLNewViewController.m; sourceTree = "<group>"; };
 		6299EEA51EFCEF6400806C1A /* HZLoldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLoldViewController.h; sourceTree = "<group>"; };
 		6299EEA61EFCEF6400806C1A /* HZLoldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLoldViewController.m; sourceTree = "<group>"; };
+		6299EEA91EFCF40000806C1A /* HZLEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZLEndViewController.h; sourceTree = "<group>"; };
+		6299EEAA1EFCF40000806C1A /* HZLEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZLEndViewController.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		719E8DE94F3004969A3416A53395D3DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F79333827DC082EBE968D8AD24F58A /* hzl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hzl-dummy.m"; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				6299EEA21EFCE6F200806C1A /* HZLNewViewController.m */,
 				6299EEA51EFCEF6400806C1A /* HZLoldViewController.h */,
 				6299EEA61EFCEF6400806C1A /* HZLoldViewController.m */,
+				6299EEA91EFCF40000806C1A /* HZLEndViewController.h */,
+				6299EEAA1EFCF40000806C1A /* HZLEndViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6299EEAB1EFCF40000806C1A /* HZLEndViewController.h in Headers */,
 				F0800D7BEFA2208FEA50D9A2BA4552C8 /* hzl-umbrella.h in Headers */,
 				6299EEA71EFCEF6400806C1A /* HZLoldViewController.h in Headers */,
 				6299EEA31EFCE6F200806C1A /* HZLNewViewController.h in Headers */,
@@ -295,6 +302,7 @@
 				6299EEA81EFCEF6400806C1A /* HZLoldViewController.m in Sources */,
 				56B0E41898C082C4BAFCD1FB7B0EAD88 /* ReplaceMe.m in Sources */,
 				6299EEA41EFCE6F200806C1A /* HZLNewViewController.m in Sources */,
+				6299EEAC1EFCF40000806C1A /* HZLEndViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
